@@ -1,0 +1,19 @@
+body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #111111;}
+table {
+  width: 100px;
+  text-align: middle;}
+th, td {
+  padding-right: 50px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;}
+th {
+  text-transform: uppercase;
+  font-size: 90%;}
+tr {
+  width:100%;
+}
+
+

@@ -24,10 +24,13 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/leaflet.css"
+              "src/assets/leaflet.css",
+              "node_modules/datatables.net-dt/css/jquery.dataTables.css"
             ],
             "scripts": [
-              "src/assets/leaflet.js"
+              "src/assets/leaflet.js",
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
             ]
           },
           "configurations": {

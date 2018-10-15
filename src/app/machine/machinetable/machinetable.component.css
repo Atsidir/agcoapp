@@ -1,0 +1,9 @@
+:host /deep/ .dataTables_filter {
+  display: none !important;
+}
+
+:host /deep/ .dataTables_info {
+  display: none !important;
+}
+
+

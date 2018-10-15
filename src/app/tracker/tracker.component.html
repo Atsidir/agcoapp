@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row" *ngIf="firstPage">
+      <div class="col-sm-6"><app-trackermap [data]="data" (messageEvent)="receiveFilter($event)"></app-trackermap></div>
+      <div class="col-sm-6"><app-trackercategory [data]="filtered"></app-trackercategory></div>
+  </div>
+  <div class="row" *ngIf="firstPage">
+    <div class="col-sm-12">
+      <app-tracker-table [data]="filtered" (messageEvent)="receivePage($event)"></app-tracker-table>
+    </div>
+  </div>
+  <div class="row" *ngIf="!firstPage">
+    <div class="col-sm-12">
+      <app-machinepage [machineid]="machineid"></app-machinepage>
+    </div>
+  </div>
+
+</div>
+
+
